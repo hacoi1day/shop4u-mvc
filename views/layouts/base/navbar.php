@@ -4,7 +4,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Book4U</a>
+        <a class="navbar-brand" href="<?php echo $urlBase; ?>">Book4U</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
                 <a class="nav-link" href="#">Sách bán chạy</a>
@@ -12,13 +12,19 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Sách mới</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Danh sách toàn bộ sách</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Danh sách danh mục</a>
+            </li>
         </ul>
         <ul class="navbar-nav float-right">
             <li class="nav-item">
-                <a class="nav-link" href="#">Đăng ký</a>
+                <a class="nav-link" href="<?php echo $urlBase; ?>/user/register">Đăng ký</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Đăng nhập</a>
+                <a class="nav-link" href="<?php echo $urlBase; ?>/user/login">Đăng nhập</a>
             </li>
         </ul>
     </div>

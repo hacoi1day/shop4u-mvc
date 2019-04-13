@@ -1,0 +1,26 @@
+/*Style user*/
+
+
+/*Style login*/
+.login {
+
+}
+
+/*Style register*/
+.register {
+
+}
+.register .title {
+    border-left: 5px solid darkslategray;
+    padding-left: 10px;
+}
+.register hr {
+    margin-top: 0px;
+}
+.register input {
+    border-radius: 0px;
+}
+.register button {
+    border-radius: 0px;
+    padding: 6px 20px;
+}

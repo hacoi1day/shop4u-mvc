@@ -12,7 +12,7 @@
 
     <div class="block-1">
         <?php
-            require_once 'views/layouts/home/components/navbar.php';
+            require_once 'views/layouts/base/navbar.php';
         ?>
     </div>
 <!--    end block-1-->
@@ -51,14 +51,14 @@
 
     <div class="block-5">
         <?php
-            require_once 'views/layouts/home/components/footer-1.php';
+            require_once 'views/layouts/base/footer-1.php';
         ?>
     </div>
 <!--    end:block-5-->
 
     <div class="block-6">
         <?php
-            require_once 'views/layouts/home/components/footer-2.php';
+            require_once 'views/layouts/base/footer-2.php';
         ?>
     </div>
 <!--    end:block-6-->
