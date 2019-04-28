@@ -8,10 +8,6 @@
 ob_start();
 session_start();
 
-// gọi kết nối CSDL
-require_once 'config/database.php';
-DataBase::connect();
-
 // nhận đường dẫn từ URL
 $url = isset($_GET['url']) ? $_GET['url'] : null;
 $url = rtrim($url, '/\\');

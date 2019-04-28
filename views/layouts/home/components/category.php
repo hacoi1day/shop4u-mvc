@@ -4,54 +4,14 @@
         <div class="row">
             <div class="col-12">
                 <div class="d-flex bd-highlight">
+                    <?php foreach ($categories as $category) { ?>
                     <div class="p-2 flex-fill">
                         <div class="_1category text-center">
                             <img src="<?php echo $urlBase; ?>/views/assets/images/category/book.png" alt="logo-category">
-                            <h6 class="title-category">Sách khoa học</h6>
+                            <a href=""><h6 class="title-category"><?php echo $category['name'] ?></h6></a>
                         </div>
                     </div>
-                    <div class="p-2 flex-fill">
-                        <div class="_1category text-center">
-                            <img src="<?php echo $urlBase; ?>/views/assets/images/category/book.png" alt="logo-category">
-                            <h6 class="title-category">Sách khoa học</h6>
-                        </div>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <div class="_1category text-center">
-                            <img src="<?php echo $urlBase; ?>/views/assets/images/category/book.png" alt="logo-category">
-                            <h6 class="title-category">Sách khoa học</h6>
-                        </div>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <div class="_1category text-center">
-                            <img src="<?php echo $urlBase; ?>/views/assets/images/category/book.png" alt="logo-category">
-                            <h6 class="title-category">Sách khoa học</h6>
-                        </div>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <div class="_1category text-center">
-                            <img src="<?php echo $urlBase; ?>/views/assets/images/category/book.png" alt="logo-category">
-                            <h6 class="title-category">Sách khoa học</h6>
-                        </div>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <div class="_1category text-center">
-                            <img src="<?php echo $urlBase; ?>/views/assets/images/category/book.png" alt="logo-category">
-                            <h6 class="title-category">Sách khoa học</h6>
-                        </div>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <div class="_1category text-center">
-                            <img src="<?php echo $urlBase; ?>/views/assets/images/category/book.png" alt="logo-category">
-                            <h6 class="title-category">Sách khoa học</h6>
-                        </div>
-                    </div>
-                    <div class="p-2 flex-fill">
-                        <div class="_1category text-center">
-                            <img src="<?php echo $urlBase; ?>/views/assets/images/category/book.png" alt="logo-category">
-                            <h6 class="title-category">Sách khoa học</h6>
-                        </div>
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>

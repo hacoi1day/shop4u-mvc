@@ -13,10 +13,13 @@
                 <a class="nav-link" href="#">Sách mới</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Danh sách toàn bộ sách</a>
+                <a class="nav-link" href="<?php echo $urlBase; ?>/product/show">Danh sách toàn bộ sách</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Danh sách danh mục</a>
+                <a class="nav-link" href="<?php echo $urlBase; ?>/product/add">Thêm sách</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo $urlBase; ?>/category/show">Danh sách danh mục</a>
             </li>
         </ul>
         <ul class="navbar-nav float-right">
